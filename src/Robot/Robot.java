@@ -43,4 +43,9 @@ public class Robot {
 			case LEFT -> x -= 1;
 		}
 	}
+
+	public void moveRobotTo(int toX, int toY) {
+		x = toX;
+		y = toY;
+	}
 }
